@@ -15,7 +15,7 @@
 
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-    <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+    <link href="css/givinghope.css" rel="stylesheet">
     <!--
 
 TemplateMo 581 Kind Heart Charity
@@ -77,8 +77,8 @@ https://templatemo.com/tm-581-kind-heart-charity
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+            <a class="navbar-brand" href="{{ route('home') }}">
+                <img src="images/logo.png" class="logo img-fluid" alt="Giving Hope Charity">
                 <span>
                     Giving Hope Charity
                     <small>Non-profit Organization</small>
@@ -107,7 +107,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
@@ -115,6 +115,10 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                             <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
                         </ul>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_4">Testimonial</a>
                     </li>
 
                     <li class="nav-item">
@@ -122,7 +126,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                     </li>
 
                     <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+                        <a class="nav-link custom-btn custom-border-btn btn" href="{{ route('donate') }}">Donate</a>
                     </li>
                 </ul>
             </div>
@@ -196,7 +200,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="{{ route('donate') }}" class="d-block">
                                 <img src="images/icons/hands.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text">Become a <strong>volunteer</strong></p>
@@ -206,7 +210,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="{{ route('donate') }}" class="d-block">
                                 <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>Caring</strong> Earth</p>
@@ -216,7 +220,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="{{ route('donate') }}" class="d-block">
                                 <img src="images/icons/receive.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text">Make a <strong>Donation</strong></p>
@@ -226,7 +230,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
+                            <a href="{{ route('donate') }}" class="d-block">
                                 <img src="images/icons/scholarship.png" class="featured-block-image img-fluid" alt="">
 
                                 <p class="featured-block-text"><strong>Scholarship</strong> Program</p>
@@ -510,29 +514,38 @@ https://templatemo.com/tm-581-kind-heart-charity
                         </form> -->
                         <h3 class="mb-4">Become a volunteer today</h3>
 
+                        <h6 class="mb-4">The requirements to be a volunteer</h6>
+
                         <ul class="custom-list mt-2">
                             <li class="custom-list-item d-flex">
                                 <i class=" bi-check custom-text-box-icon me-2"></i>
-                                <p class="text-white">Charity Theme
+                                <p class="text-white">Application
                                 <p>
                             </li>
                             <li class="custom-list-item d-flex">
                                 <i class=" bi-check custom-text-box-icon me-2"></i>
-                                <p class="text-white">Charity Theme
+                                <p class="text-white">ID and proof of address
                                 <p>
                             </li>
                             <li class="custom-list-item d-flex">
                                 <i class=" bi-check custom-text-box-icon me-2"></i>
-                                <p class="text-white">Charity Theme
+                                <p class="text-white">Training certificate
                                 <p>
                             </li>
                             <li class="custom-list-item d-flex">
                                 <i class=" bi-check custom-text-box-icon me-2"></i>
-                                <p class="text-white">Charity Theme
+                                <p class="text-white">Volunteer agreement
+                                <p>
+                            </li>
+                            <li class="custom-list-item d-flex">
+                                <i class=" bi-check custom-text-box-icon me-2"></i>
+                                <p class="text-white">Reference letter
                                 <p>
                             </li>
                         </ul>
+                        <h6 class="text-white">Changing the world, one act of kindness at a time</h6>
                     </div>
+
 
                     <div class="col-lg-6 col-12">
                         <img src="images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" class="volunteer-image img-fluid" alt="">
@@ -540,15 +553,17 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <div class="custom-block-body text-center">
                             <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
 
-                            <p class="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
+                            <p class="text-white">Volunteering is the act of giving time and energy to help others without the expectation of financial compensation. It can take many forms, including working with a charitable organization, helping out in a community, or providing services to those in need</p>
                         </div>
                     </div>
+
+
 
                 </div>
             </div>
         </section>
 
-        <section class="news-section section-padding" id="section_5">
+        <!-- <section class="news-section section-padding" id="section_5">
             <div class="container">
                 <div class="row">
 
@@ -791,10 +806,11 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
+        <!-- Starting the testimonial section -->
 
-        <section class="testimonial-section section-padding section-bg">
+        <section class="testimonial-section section-padding section-bg" id="section_5">
             <div class="container">
                 <div class="row">
 
@@ -806,7 +822,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                                        <h4 class="carousel-title">The staff are dedicated and passionate about their mission, and it's been an honor to be a part</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Maria</span>, Boss</small>
                                     </div>
@@ -814,7 +830,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+                                        <h4 class="carousel-title">Their assistance with housing and job training has allowed me to get back on my feet</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Thomas</span>, Partner</small>
                                     </div>
@@ -822,7 +838,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                                        <h4 class="carousel-title">Their organization is well-run and effective in addressing the needs of our most vulnerable citizens</h4>
 
                                         <small class="carousel-name"><span class="carousel-name-title">Jane</span>, Advisor</small>
                                     </div>
@@ -830,9 +846,9 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <div class="carousel-item">
                                     <div class="carousel-caption">
-                                        <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
+                                        <h4 class="carousel-title">Their programs are well-designed and have a real impact on the lives of those they serve</h4>
 
-                                        <small class="carousel-name"><span class="carousel-name-title">Bob</span>, Entreprenuer</small>
+                                        <small class="carousel-name"><span class="carousel-name-title">Bob</span>, Entrepreneur</small>
                                     </div>
                                 </div>
 
@@ -862,6 +878,9 @@ https://templatemo.com/tm-581-kind-heart-charity
             </div>
         </section>
 
+        <!-- Ending the testimonial section -->
+
+        <!-- Starting the contact us content -->
 
         <section class="contact-section section-padding" id="section_6">
             <div class="container">
@@ -881,25 +900,25 @@ https://templatemo.com/tm-581-kind-heart-charity
                             </div>
 
                             <div class="contact-info">
-                                <h5 class="mb-3">Contact Infomation</h5>
+                                <h5 class="mb-3">Contact Information</h5>
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Akershusstranda 20, 0150 Oslo, Norway
+                                    No. 11, Wijerama Mawatha, Colombo 07, Sri Lanka
                                 </p>
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-telephone me-2"></i>
 
                                     <a href="tel: 120-240-9600">
-                                        120-240-9600
+                                        011-240-9600
                                     </a>
                                 </p>
 
                                 <p class="d-flex">
                                     <i class="bi-envelope me-2"></i>
 
-                                    <a href="mailto:info@yourgmail.com">
+                                    <a href="mailto:info@yohanii725@gmail.com">
                                         donate@charity.org
                                     </a>
                                 </p>
@@ -914,7 +933,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                             <h2>Contact form</h2>
 
                             <p class="mb-4">Or, you can just send an email:
-                                <a href="#">info@charity.org</a>
+                                <a href="#">info@givinghope.com</a>
                             </p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
@@ -937,6 +956,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                 </div>
             </div>
         </section>
+
+        <!-- ending the contact us content -->
     </main>
 
     <footer class="site-footer">
@@ -956,9 +977,11 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                         <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Volunteer</a></li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Partner with us</a></li>
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Testimonial</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
                     </ul>
                 </div>
 
@@ -969,7 +992,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <i class="bi-telephone me-2"></i>
 
                         <a href="tel: 120-240-9600" class="site-footer-link">
-                            120-240-9600
+                            011-240-9600
                         </a>
                     </p>
 
@@ -977,13 +1000,13 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <i class="bi-envelope me-2"></i>
 
                         <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                            donate@charity.org
+                            info@givinghope.com
                         </a>
                     </p>
 
                     <p class="text-white d-flex mt-3">
                         <i class="bi-geo-alt me-2"></i>
-                        Akershusstranda 20, 0150 Oslo, Norway
+                        No. 11, Wijerama Mawatha, Colombo 07, Sri Lanka
                     </p>
 
                     <a href="#" class="custom-btn btn mt-3">Get Direction</a>
@@ -996,8 +1019,8 @@ https://templatemo.com/tm-581-kind-heart-charity
                 <div class="row">
 
                     <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © 2036 <a href="#">Kind Heart</a> Charity Org.
-                            Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                        <p class="copyright-text mb-0">Copyright © 2023 <a href="#">Giving Hope</a> Charity Org.
+                            Design: <a href="https://templatemo.com" target="_blank">YohaniA</a></p>
                     </div>
 
                     <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
@@ -1019,7 +1042,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                <a href="#" class="social-icon-link bi-youtube"></a>
                             </li>
                         </ul>
                     </div>
@@ -1027,6 +1050,32 @@ https://templatemo.com/tm-581-kind-heart-charity
                 </div>
             </div>
         </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </footer>
 
     <!-- JAVASCRIPT FILES -->
