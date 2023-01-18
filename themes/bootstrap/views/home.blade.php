@@ -16,13 +16,7 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/givinghope.css" rel="stylesheet">
-    <!--
-
-TemplateMo 581 Kind Heart Charity
-
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
+   
 
 </head>
 
@@ -146,7 +140,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                                     <img src="images/slide/volunteer-helping-with-donation-box.jpg" class="carousel-image img-fluid" alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>be a Kind Heart</h1>
+                                        <h1>Giving Hope</h1>
 
                                         <p>Making a difference, one step at a time</p>
                                     </div>
@@ -1020,7 +1014,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                     <div class="col-lg-6 col-md-7 col-12">
                         <p class="copyright-text mb-0">Copyright © 2023 <a href="#">Giving Hope</a> Charity Org.
-                            Design: <a href="https://templatemo.com" target="_blank">YohaniA</a></p>
+                            Design: <a href="#" target="_blank">YohaniA</a></p>
                     </div>
 
                     <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
